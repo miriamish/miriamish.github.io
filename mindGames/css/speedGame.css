@@ -1,0 +1,102 @@
+#container {
+  position: absolute;
+  background-image: url("../image/speed/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 0;
+  cursor: url(../image/speed/knifeTry.cur) 0 -3, pointer;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 70px;
+}
+body {
+  overflow: hidden;
+  font-family: 'speed', 'basis';
+}
+.fruit {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 3;
+  padding-top: 10px;
+  cursor: url(../image/speed/knifeTry.cur) 0 -3, pointer;
+}
+
+.halfFruit {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  z-index: 2;
+  cursor: url(../image/speed/knifeTry.cur), pointer;
+}
+
+.spot {
+  z-index: 1;
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  opacity: 1;
+  cursor: url(../image/speed/knifeTry.cur), pointer;
+}
+
+.spotHide {
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  transition: 5s;
+  opacity: 0;
+}
+
+.bomb {
+  z-index: 3;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  cursor: url(../image/speed/knifeTry.cur) 0 -3, pointer;
+}
+.boom {
+  width: 200px;
+  height: 200px;
+  transform: rotate(0deg);
+  position: absolute;
+}
+.x {
+  width: 70px;
+  z-index: 2;
+}
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#countdown {
+  font-size: 90px;
+  color: wheat;
+  position: absolute;
+  right: 0;
+  padding-right: 30px;
+}
+#next {
+  padding: 15px 25px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 5px solid rgb(10, 43, 2);
+  background-color: transparent;
+  color: rgb(10, 43, 2);
+  margin-left: 42%;
+  margin-top: 20%;
+  font-weight: bold;
+  font-family: 'speed', 'basis';
+}
+#next:hover{
+    background-color: #ddd;
+}

@@ -1,0 +1,98 @@
+input {
+  width: 100%;
+  padding: 15px 0px;
+  margin: 5px 0px 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  background-color: #ddd;
+}
+#signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.4);
+  height: 100vh;
+  padding-bottom: 10px;
+}
+Form {
+  border-radius: 10px;
+  width: 30%;
+  background-color: #f5faf9;
+  padding: 15px;
+  font-family: sans-serif;
+}
+#signUp h1,#login h1{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+form button{
+  width: 50%;
+  float: right;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  opacity: 0.8;
+  color: white;
+}
+#signUpConfirm:hover,
+#cancleSignUp:hover,
+#cancleLogin:hover,
+#loginConfirm:hover{
+  opacity: 1;
+}
+
+#cancleSignUp, #cancleLogin{
+  background-color: #e2d810;
+}
+#signUpConfirm, #loginConfirm{
+  background-color: #12abd9;
+}
+.warning {
+  color: #c20e08;
+  margin-bottom: 10px;
+  margin-top: -15px;
+  font-size: smaller;
+}
+form a{
+  height: 44px;
+  width:50%;
+}
+#login{
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#login form{
+  margin: 5% auto 5% auto;
+  padding-bottom: 66px;
+}
+#avatar{
+  width: 40%;
+  border-radius: 50%;
+}
+#avatarConteiner{
+  display:flex;
+  width:100%;
+  align-content: center;
+  justify-content: center;
+}
+
+
+

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'basis';
+  src: url(../font/basis.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'speed';
+  src: url(../font/speed.otf) format('opentype');
+}
+@font-face {
+  font-family: 'memory';
+  src: url(../font//memory.ttf) format('truetype');
+}
+.hideElement {
+  display: none;
+}
+
+.showElement {
+  display: block;
+}
+
+header {
+  width: 100%;
+  background-color: #f9f9f9;
+  height: 50px;
+  position: fixed;
+  border-bottom: rgb(1, 19, 53) solid 3px;
+  z-index: 100;
+}
+#logo {
+  width: 190px;
+  float: left;
+  padding-bottom: 15px;
+}
+body {
+  margin: 0px;
+}
+#userMode p {
+  position: absolute;
+  left: 10px;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#startLogin,#startSignUp ,#logout, #home{
+  padding: 8px 16px;
+  background-color: #f1f4f9;
+  color: #e2d810;
+  border: 1px solid #e2d810;
+  border-radius: 6px;
+  margin:8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+#startSignUp a{
+  color: #e2d810;
+  text-decoration: none;
+}
+#startLogin:hover ,#startSignUp:hover ,#logout:hover, #home:hover{
+  background-color: #e2d810;
+color: #f1f4f9;
+}
+#startSignUp a:hover{
+color: #f1f4f9;
+
+}
+
+.messageBackground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  height: 100vh;
+  width: 100%;
+  position: fixed; 
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+.messageForeground{
+  background-color: white;
+  width:40%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 1.8em;
+  padding: 5px;
+  direction: rtl;
+}

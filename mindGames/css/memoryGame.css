@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(45deg, #ffe3e3, transparent);
+  height: 100vh;
+  overflow: hidden;
+}
+#display {
+  height: 200px;
+  width: 200px;
+  display: block;
+  object-fit: contain;
+}
+.imgBar {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  margin-right: 10px;
+  background: linear-gradient(30deg, #ffe9e9, white);
+  border: 10px ridge #fd7656;
+  border-radius: 26px;
+}
+
+
+#bar {
+  display: inline-block;
+  margin-right: -5px;
+  margin-left: -5px;
+  height: 250px;
+}
+.insertBar {
+  height: 250px;
+  width: 70px;
+  display: inline-block;
+  background-image: url("../image/bar.png");
+  background-size: 70px 250px;
+  background-repeat: no-repeat;
+}
+.parts {
+  display: inline-block;
+  height: 250px;
+}
+#screen {
+  width: 540px;
+  height: 238px;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../image/screen.png");
+  background-size: 540px 330px;
+  padding-left: 252px;
+  padding-top: 92px;
+  background-repeat: no-repeat;
+}
+.insertBar img {
+  height: 70px;
+  width: 70px;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  top: 570px;
+}
+#factory {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#upperBar {
+  display: flex;
+  justify-content: flex-start;
+}
+.hide {
+  opacity: 0;
+  transition: 0.1s;
+}
+.show {
+  opacity: 1;
+  transition: 0.1s;
+}
+.fall {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#next {
+  float: right;
+  width: 200px;
+  height: 100px;
+  margin-right: 30%;
+  border: 10px ridge #fd7656;
+  border-radius: 15px;
+  background-color: #fff2f2;
+  color: #a94f39;
+  font-size: 2em;
+  font-family: 'memory','basis';
+}
+#next:hover{
+  background-color: #fd7656;
+  color: #fff2f2;
+
+}

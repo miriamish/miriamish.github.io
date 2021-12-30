@@ -1,0 +1,105 @@
+body{
+    font-family: 'memory','basis';
+}
+#levelsMenu {
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+#levelsMenu p{
+    font-size: 3.5em;
+    position: relative;
+    top:150px;
+    left: -30px;
+}
+#levelsMenu p:first-child{
+    color:#a2c5fe;
+}
+#levelsMenu p:nth-child(3){
+    color:#81c399;
+    left: -500px;
+    width: 200px;
+}
+#levelsMenu p:nth-child(5){
+    color:#b9b9b9;
+}
+
+#levelsMenu button:hover{
+    opacity: 0.8;
+}
+#levelsMenu button{
+    margin-right: 30px;
+    position: absolute;
+    display: none;
+    width: 55px;
+    height: 50px;
+}
+.machine{
+width:100%;
+}
+body{
+    background: linear-gradient(
+        45deg, #f8d8ae, transparent);
+}
+#beginer button{
+    background-color: #f8eeed;
+    border: 3px solid #a2c5fe;
+    border-radius: 6px;
+    color: #a2c5fe;
+}
+#medium button{
+    background-color: #f8eeed;
+    border: 3px solid #81c399;;
+    border-radius: 6px;
+    color: #81c399;
+}
+#profession button{
+    background-color: #f8eeed;
+    border: 3px solid #b9b9b9;;
+    border-radius: 6px;
+    color: #b9b9b9;
+}
+
+.record{
+    width:250px;
+    height: 200px;
+    font-size: 3em;
+    background: linear-gradient(
+    45deg, #f8d8ae, transparent);
+    background-image: url("../image/candyBackground.png");
+    background-size: 250px 200px;
+    border-radius: 15px;
+    border:7px ridge #fd7656;
+    color: #fd7656;    
+}
+.record:hover{
+    opacity: 0.8;
+}
+#recordContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:400px;
+}
+#instructions p{
+    font-size: 30px;
+    align-items: center;
+    width: 30%;
+}
+h1{
+    padding-top: 70px;
+    margin-top: 0;
+    padding-right: 400px;
+}
+video{
+    width: 30%;
+    border-radius: 15px;
+    border: 5px ridge #fd7656;
+}
+#instructions{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
