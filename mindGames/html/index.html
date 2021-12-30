@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mind games</title>
+  <link rel="stylesheet" href="../css/form.css">
+  <link rel="stylesheet" href="../css/general.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <header>
+    <div id="userMode">
+      <p><span id="nameDisplay"></span> <span id="xpDisplay"></span> xp</p>
+      <button id="logout">log out</button>
+    </div>
+    <div id="guestMode">
+      <img id="logo" src="../image/logo.png">
+      <div>
+      <button id="startLogin">log in</button>
+      <button id="startSignUp"><a href="signUp.html">sign up</a></button>
+    </div>
+    </div>
+  </div>
+  </header>
+  <nav>
+    <ul>
+      <a href="#aboutUs" id="#aboutUsLi">
+        <li >
+          אודותינו
+        </li>
+      </a>
+      <a href="#feedback" id="#feedbackLi" >
+        <li>
+          תגובות
+        </li>
+      </a>
+      <a href="#games" id="#gamesLi">
+        <li>
+          משחקים
+        </li>
+      </a>
+    </ul>
+  </nav>
+  <main>
+    <div id="login" class="hideElement">
+      <form action="" onsubmit="return false">
+        <div id="avatarConteiner"><img src="../image/avatar.jpg" id="avatar"></div>
+        <h1>Log In</h1>
+        <label>don't have an account? <a href="./signUp.html">sign up</a></label>
+        <hr>
+        <label>שם משתמש</label>
+        <input type="text" name="name" id="name" placeholder=" Enter User name">
+        <label>סיסמה</label>
+        <input type="password" name="password" id="password" placeholder=" Enter Password">
+        <div id='wrongLogin' class="warning"></div>
+        <button id="loginConfirm">אישור</button>
+        <button id="cancleLogin">ביטול</button>
+      </form>
+    </div> 
+    <div id="flexMain">
+  <h1 id="h1main"> משחקי פיתוח מיומנויות חשיבה </h1>
+<img id="imgmain" src="../image/manImage.jpg">
+</div>
+    <article id="aboutUs">
+        <h2>אודותינו</h2>
+      <p>
+        אתר זה הוקם במטרה לשפר ביצועי מוח אצל צעירים.<br>בימינו עודף שימוש במחשב גורר ניוון בחלקי מוח שונים שלא
+        באים לידי שימוש כלל ביום יום.<br> האתר הוקם על מנת לנצל את המחשב לצורך מטרה הפוכה:<br>שיפור מיומניות חשיבה,
+        זכרון ומהירות תפיסה.<br><br> האתר הוקם ע"י הסטודנטיות מרימי שמואלביץ ואלישבע לופיאנסקי כחלק מפרויקט התנדבותי ללא
+        מטרות רווח<br>לכן אתר זה הוא חינמי וללא כל תשלום .
+      </p>
+    </article >
+    <article id="games">
+      <h2>משחקים</h2>
+      <div id="flex-games">
+    <div id="memory-div">
+      <button id="memory">משחק זיכרון</button>
+      <img src="../image/candyLogo.png">
+    </div>
+    <div id="speed-div">
+      <button id="speed">משחק מהירות</button>
+      <img src="../image/speedlogo.jpg">
+    </div>
+    <div id="mind-div">
+      <button id="mind">משחק חשיבה</button>
+      <img src="../image/mindlogo.jpg">
+    </div>
+    </div>
+    </article>
+    <article id="feedback">
+      <h2>תגובות</h2>
+      <div class="flex-feedback">
+      <div><h4>נועה</h4><cite>" האתר הכי כיף בעולם. נוח מהיר ברור והכי חשוב-כיףף"</cite></div>
+      <img src="../image/child2.jpg">
+    </div>
+    <div class="flex-feedback">
+      <img src="../image/child3.jpg">
+      <div><h4>ירון</h4><cite>מאז ששמעתי על האתר הזה פשוט התמכרתי אליו.המשחקים בו כל כך מהנים וברמה ,אני הכי אוהב את שלב השיא </cite></div>
+    </div>
+    <div class="flex-feedback">
+      <div><h4>נוי</h4><cite>"כל רגע פנוי שיש לי אני מנצלת לכמה משחקים באתר"</cite></div>
+      <img src="../image/child1.jpg">
+    </div>
+    <div class="flex-feedback">
+      <img src="../image/child2.jpg">
+    <div><h4>גלעד</h4><cite>"פשוט אתר מושלללםם ,אני ואחי רשומים ומתחרים על השיא-פשוט ממכר!!"</cite></div>
+    </div>
+    </article>
+    
+  </main>
+  <script src="../js/general.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

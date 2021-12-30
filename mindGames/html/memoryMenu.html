@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mind games | candy factory</title>
+  <link rel="stylesheet" href="../css/general.css" />
+  <link rel="stylesheet" href="../css/memoryMenu.css" />
+</head>
+
+<body>
+  <header>
+    <div id="userMode">
+      <p><span id="nameDisplay"></span> <span id="xpDisplay"></span> xp</p>
+      <a href="./index.html"></a><button id = "home">בית</button></a>
+      <button id="logout">log out</button>
+    </div>
+    <div id="guestMode"></div>
+  </div>
+  </header>
+  <h1>איך משחקים?</h1>
+  <div id="instructions">
+    <p>מפעל המוצרים מקבל הזמנות של מוצרים מלקוחות.<br>
+    עלינו להוסיף את המוצרים שהוזמנו למסוע באותו סדר בו הראו לנו את המוצרים.<br>
+    משלב לשלב מספר המוצרים גדלים וכן זמן הצגת כל מוצר.
+    </p>
+<video src="../video/memoryVideo.mp4" controls>your browser doesn't support this vidoe type</video>
+  </div>
+  
+  <div id="levelsMenu">
+    <p>מתחיל</p>
+    <div id="beginer">
+      <button class="beginer level1">1</button>
+      <button class="beginer level2">2</button>
+      <button class="beginer level3">3</button>
+      <button class="beginer level4">4</button>
+      <button class="beginer level5">5</button>
+      <img src="../image/beginer.png" class="machine" alt="">
+    </div>
+    <p>בינוני</p>
+    <div id="medium">
+      <button class="medium level1">1</button>
+      <button class="medium level2">2</button>
+      <button class="medium level3">3</button>
+      <button class="medium level4">4</button>
+      <button class="medium level5">5</button>
+      <img src="../image/medium.png" class="machine" alt="">
+    </div>
+    <p>קשה</p>
+    <div id="profession">
+      <button class="profession level1">1</button>
+      <button class="profession level2">2</button>
+      <button class="profession level3">3</button>
+      <button class="profession level4">4</button>
+      <button class="profession level5">5</button>
+      <img src="../image/proffesion.png" class="machine" alt="">
+    </div>
+  </div>
+  <div id="recordContainer">
+    <button class="record">שיא</button>
+  </div>
+  <script src="../js/general.js"></script>
+  <script src="../js/memoryMenu.js"></script>
+</body>
+
+</html>

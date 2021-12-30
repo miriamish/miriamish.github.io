@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind games | sign up</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <script src="../js/general.js"></script>
+</head>
+<body>
+    <div id="signUp">
+        <form action="" onsubmit="return false">
+            <h1>Sign Up</h1>
+            <p>ליצירת חשבון מלא את הטופס.</p>
+            <hr>
+            <label for="email"><b>שם משתמש</b></label>
+            <input type="text" id="name" name="name" placeholder=" Enter User name">
+            <div id='wrongName' class="warning"></div>
+            <label for="email"><b>מייל</b></label>
+            <input type="email" id="email" name="email" placeholder=" Enter Email">
+            <div id='wrongEmail' class="warning"></div>
+            <label for="email"><b>סיסמה</b></label>
+            <input type="password" id="password" name='password' placeholder=" Enter Password">
+            <div id='wrongPassword' class="warning"></div>
+            <button id="signUpConfirm">הירשם</button>
+            <button id="cancleSignUp" onclick="">ביטול</button>
+
+        </form>
+    </div>
+    <script src="../js/signUp.js"></script>
+</body>
+</html>
